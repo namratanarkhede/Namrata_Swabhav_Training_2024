@@ -1,0 +1,16 @@
+package com.aurionpro.creational.prototype.test;
+
+import com.aurionpro.creational.prototype.model.Car;
+import com.aurionpro.creational.prototype.model.ICar;
+
+public class CarPrototypeTest {
+
+	public static void main(String[] args) {
+	
+		
+	
+		
+		
+		
+	}
+}

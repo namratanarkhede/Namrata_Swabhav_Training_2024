@@ -1,0 +1,5 @@
+package com.aurionpro.behavioral.command.model;
+
+public class FileSystemReceiverUtil {
+
+}

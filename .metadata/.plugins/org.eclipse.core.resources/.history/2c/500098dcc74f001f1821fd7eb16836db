@@ -1,0 +1,11 @@
+package com.aurionpro.structural.Facade.model;
+
+public class Starter {
+	
+	public void start() {
+		IStarter dvdPlayer = new DvdPlayer("Marvel");
+		IStarter projector = new Projector();
+		IStarter soundSystem = new SoundSystem(200);		
+	}
+
+}

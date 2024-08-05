@@ -1,0 +1,21 @@
+package com.aurionpro.model;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import org.junit.jupiter.api.Test;
+
+class OperationsTest {
+
+	@Test
+	void testAddition() {
+		Operations operations = new Operations();
+		
+		//function in junit test to check is expected and actual is same.
+		assertEquals(10, operations.addition(5, 5), "This function must do addition.");
+		assertEquals(0, operations.subtraction(5, 5), "This function must do subtraction.");
+		assertEquals(1, operations.division(5, 0), "This function must do division.");
+		assertEquals(25, operations.multiplication(5, 5), "This function must do multiply.");
+		
+	}
+
+}

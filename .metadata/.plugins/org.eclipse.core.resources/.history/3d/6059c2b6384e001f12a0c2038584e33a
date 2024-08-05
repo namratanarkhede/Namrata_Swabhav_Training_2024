@@ -1,0 +1,12 @@
+package com.aurionpro.ocpviolation.test;
+
+import com.aurionpro.ocpviolation.model.FixedDeposit;
+
+public class FixedDepositTest {
+	public static void main(String[] args) {
+		FixedDeposit fd = new FixedDeposit(123, "Namrata", 200, 2);
+		
+		
+	}
+
+}

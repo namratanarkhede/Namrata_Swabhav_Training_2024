@@ -1,0 +1,16 @@
+package com.aurionpro.model;
+
+public class Student {
+	
+	private IStudentService studentService;
+	
+	public Student(IStudentService studentService2) {
+		// TODO Auto-generated constructor stub
+	}
+
+	public double calculatePercentge() {
+		return (studentService.getMarks()/studentService.getTotalSubject());
+		
+	}
+
+}

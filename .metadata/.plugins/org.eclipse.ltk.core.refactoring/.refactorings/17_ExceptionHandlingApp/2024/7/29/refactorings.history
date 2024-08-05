@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;InsufficientBalanceException.java&apos; to &apos;Assignment_20_07_24/src/com.aurionpro.exceptions&apos;&#x0D;&#x0A;- Original project: &apos;16_ExceptionHandlingApp&apos;&#x0D;&#x0A;- Destination element: &apos;Assignment_20_07_24/src/com.aurionpro.exceptions&apos;&#x0D;&#x0A;- Original element: &apos;com.aurionpro.exception.InsufficientBalanceException.java&apos;" description="Copy compilation unit" destination="=Assignment_20_07_24/src&lt;com.aurionpro.exceptions" element1="/src&lt;com.aurionpro.exception{InsufficientBalanceException.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1721467209897" units="1" version="1.0"/>
+</session>

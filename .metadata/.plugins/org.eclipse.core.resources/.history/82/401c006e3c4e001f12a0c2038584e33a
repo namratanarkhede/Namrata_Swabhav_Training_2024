@@ -1,0 +1,17 @@
+package com.aurionpro.ispviolation.model;
+
+public class Loader implements ILunchInterval {
+
+	@Override
+	public void eat() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void rest() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

@@ -1,0 +1,18 @@
+package com.aurionpro.dip.model;
+
+public class TaxCalculator {
+	
+	private DBLogger dblogger;
+	
+
+	public TaxCalculator(DBLogger dblogger) {
+		super();
+		this.dblogger = dblogger;
+	}
+
+
+	public void calculateTax(int amount, int rate){
+		
+	}
+
+}

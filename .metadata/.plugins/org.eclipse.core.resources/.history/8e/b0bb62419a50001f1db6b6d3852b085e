@@ -1,0 +1,21 @@
+package com.aurionpro.behavioral.state.model;
+
+public class Ordered implements IPacketState{
+
+	@Override
+	public void next(Packet packet) {
+		System.out.println("Packet Ordered next state");
+	}
+
+	@Override
+	public void current(Packet packet) {
+		System.out.println("Packet Ordered current state");
+	}
+
+	@Override
+	public void previous(Packet packet) {
+		System.out.println("Packet Ordered previous state.");
+	}
+	
+
+}

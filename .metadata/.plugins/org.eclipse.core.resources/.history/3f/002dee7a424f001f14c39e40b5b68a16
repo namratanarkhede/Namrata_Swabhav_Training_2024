@@ -1,0 +1,28 @@
+package com.aurionpro.creational.prototype.test;
+
+import com.aurionpro.creational.prototype.model.Car;
+import com.aurionpro.creational.prototype.model.ICar;
+
+public class CarPrototypeTest {
+
+	public static void main(String[] args) {
+		ICar originalCar = new Car("Tata");
+		
+		ICar cloneCar = originalCar.clone();
+	
+		
+		System.out.println("Original Car Name: " + originalCar.getName());
+
+		originalCar.start();
+		originalCar.stop();
+		
+		System.out.println("Clone Car Name: " + cloneCar.getName());
+
+		cloneCar.start();
+		cloneCar.stop();
+		
+		cloneCar.
+		
+		
+	}
+}

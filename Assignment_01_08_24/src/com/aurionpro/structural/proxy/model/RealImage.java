@@ -1,0 +1,25 @@
+package com.aurionpro.structural.proxy.model;
+
+public class RealImage implements Image{
+	private String fileName;
+	
+
+	public RealImage(String fileName) {
+		super();
+		this.fileName = fileName;
+		loadImageFromDisk();
+	}
+	
+	private void loadImageFromDisk() {
+		System.out.println("Loading image from disk: "+ fileName);
+	}
+
+
+	@Override
+	public void display() {
+		System.out.println("Displaying image: " + fileName);
+		
+	}
+	
+
+}

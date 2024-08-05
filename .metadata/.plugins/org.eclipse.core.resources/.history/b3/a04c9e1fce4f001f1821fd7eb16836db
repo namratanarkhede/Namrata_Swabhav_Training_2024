@@ -1,0 +1,27 @@
+package com.aurionpro.structural.Adapter.model;
+
+public class HatAdaptor implements IItem {
+
+	Hat hat = new Hat("Hat", "HatName", 200, 12);
+	
+	
+	public HatAdaptor() {
+		super();
+		this.hat = hat;
+	}
+
+	@Override
+	public String getItemName() {
+		String name = hat.getShortName()+hat.getLongName();
+		return name ;
+	}
+
+	@Override
+	public double getItemPrice() {
+		double price = hat.getBasicPrice()+hat.getTax()/100;
+		
+		return price;
+	}
+	
+
+}

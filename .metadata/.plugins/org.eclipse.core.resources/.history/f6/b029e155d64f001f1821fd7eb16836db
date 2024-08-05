@@ -1,0 +1,7 @@
+package com.aurionpro.structural.Decorator.model;
+
+public class CarInspection implements ICarService{
+	
+	
+
+}

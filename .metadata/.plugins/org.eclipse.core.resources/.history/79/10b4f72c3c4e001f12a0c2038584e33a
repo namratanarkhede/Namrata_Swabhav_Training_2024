@@ -1,0 +1,5 @@
+package com.aurionpro.ispviolation.model;
+
+public class Robot {
+
+}

@@ -1,0 +1,7 @@
+package com.aurionpro.creational.prototype.model;
+
+public interface IPrototype extends Cloneable{
+	
+	Car clone() throws CloneNotSupportedException;
+
+}

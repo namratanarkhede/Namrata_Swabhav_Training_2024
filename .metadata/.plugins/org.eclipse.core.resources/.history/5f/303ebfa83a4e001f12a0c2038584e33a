@@ -1,0 +1,5 @@
+package com.aurionpro.isp.model;
+
+public class Robot implements IWorker{
+
+}

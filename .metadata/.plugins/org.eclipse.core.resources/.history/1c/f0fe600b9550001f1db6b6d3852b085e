@@ -1,0 +1,10 @@
+package com.aurionpro.behavioral.observer.model;
+
+public class AppNotification implements INotifier{
+
+	@Override
+	public void notify(Account account, String operation, double amount) {
+		System.out.println("App Notification Account :" +account.getAccountNumber()+ "Balance: " + account.getBalance());
+	}
+
+}

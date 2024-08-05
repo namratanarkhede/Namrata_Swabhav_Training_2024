@@ -1,0 +1,21 @@
+package com.aurionpro.creational.builder.test;
+
+import com.aurionpro.creational.builder.model.Car;
+import com.aurionpro.creational.builder.model.ICar;
+
+public class CarBuilderTest {
+	public static void main(String[] args) {
+        ICar car = Car.builder("Toyota").build();
+
+        System.out.println("Car Name: " + car.getName());
+        car.start();
+        car.stop();
+
+        ICar anotherCar = Car.builder("Ferrari 488").build();
+
+        System.out.println("Car Name: " + anotherCar.getName());
+        anotherCar.start();
+        anotherCar.stop();
+    }
+
+}

@@ -1,0 +1,20 @@
+package com.aurionpro.dip.model;
+
+public class TaxCalculator {
+	
+	DBLogger dblogger;
+	
+
+	public void calculateTax(int amount, int rate){
+		int tax =0;
+		try {
+			tax = amount/rate;
+			System.out.println(tax);
+		}
+		catch(Exception e) {
+			new DBlogger().log("Divide by zero")
+		}
+		return tax;
+	}
+
+}

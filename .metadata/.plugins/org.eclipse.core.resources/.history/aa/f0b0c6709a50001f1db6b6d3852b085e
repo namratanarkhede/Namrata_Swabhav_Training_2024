@@ -1,0 +1,22 @@
+package com.aurionpro.behavioral.state.model;
+
+public class Received implements IPacketState{
+
+	@Override
+	public void next(Packet packet) {
+		System.out.println("Packet Received next state");
+	}
+
+	@Override
+	public void current(Packet packet) {
+		System.out.println("Packet Received current state");
+		
+	}
+
+	@Override
+	public void previous(Packet packet) {
+		System.out.println("Packet Received previous state");
+	}
+	
+
+}

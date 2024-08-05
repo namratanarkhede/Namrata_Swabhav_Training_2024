@@ -1,0 +1,14 @@
+package com.aurionpro.structural.Facade.model;
+
+public class IndianMenu implements IMenu {
+
+	@Override
+	public void displayMenu() {
+		System.out.println("Indian Menu");
+		System.out.println("kolhapuri chicken");
+		System.out.println("chicken sukka");
+		System.out.println("bhakari");
+	}
+	
+
+}

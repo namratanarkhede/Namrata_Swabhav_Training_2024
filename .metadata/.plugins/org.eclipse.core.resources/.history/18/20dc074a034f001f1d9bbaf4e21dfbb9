@@ -1,0 +1,7 @@
+package com.aurionpro.creational.factory.model;
+
+public interface IAccount {
+	public double credit(double amount);
+
+	public double debit(double amount);
+}

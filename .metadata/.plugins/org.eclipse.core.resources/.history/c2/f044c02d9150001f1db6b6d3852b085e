@@ -1,0 +1,25 @@
+package com.aurionpro.behavioral.observer.test;
+
+import java.util.Scanner;
+
+public class AccountTest {
+	public static void main(String[] args) {
+		Scanner sc =new Scanner(System.in);
+		
+		Account account = new Account();
+		
+		System.out.println("Enter name: ");
+		String name = sc.next();
+		System.out.println("Enter the balance: ");
+		double balance = sc.nextDouble();
+		System.out.println("Which notification you wan? : \n1.SMS Notification \n2.EmailNotification \n3.AppNotification");
+		int choice = sc.nextInt();
+		
+		swtich(choice){
+			case 1:
+				notifiers.add
+		}
+		
+	}
+
+}

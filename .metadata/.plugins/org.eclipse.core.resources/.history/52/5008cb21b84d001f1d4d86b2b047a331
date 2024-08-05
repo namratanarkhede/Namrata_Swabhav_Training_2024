@@ -1,0 +1,12 @@
+package com.aurionpro.model;
+
+import java.io.FileInputStream;
+
+public class Student {
+	public static void main(String[] args) {
+		FileInputStream input = new FileInputStream("D:\\Aurionpro_training\\Assignment_29_07_24\\src\\com\\aurionpro\\model\\studentdetail.txt");
+		System.out.println(input);
+	
+	}
+
+}

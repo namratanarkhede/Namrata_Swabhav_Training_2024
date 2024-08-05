@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="StudentTest (2)" project="24_UnitTestingApp" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testsuite name="com.aurionpro.model.StudentTest" time="0.582" displayname="StudentTest" uniqueid="[engine:junit-jupiter]/[class:com.aurionpro.model.StudentTest]">
+    <testcase name="testCalculatePercentge" classname="com.aurionpro.model.StudentTest" time="0.582" displayname="testCalculatePercentge()" uniqueid="[engine:junit-jupiter]/[class:com.aurionpro.model.StudentTest]/[method:testCalculatePercentge()]">
+      <error>java.lang.NullPointerException&#13;
+	at com.aurionpro.model.Student.calculatePercentge(Student.java:12)&#13;
+	at com.aurionpro.model.StudentTest.testCalculatePercentge(StudentTest.java:28)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at java.util.ArrayList.forEach(Unknown Source)&#13;
+	at java.util.ArrayList.forEach(Unknown Source)&#13;
+&#13;
+</error>
+    </testcase>
+  </testsuite>
+</testrun>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.aurionpro.model.Nujmber&apos; to &apos;Number&apos;&#x0D;&#x0A;- Original project: &apos;14_Assignment_15_07_24&apos;&#x0D;&#x0A;- Original element: &apos;com.aurionpro.model.Nujmber&apos;&#x0D;&#x0A;- Renamed element: &apos;com.aurionpro.model.Number&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Nujmber&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.aurionpro.model{Nujmber.java[Nujmber" matchStrategy="1" name="Number" qualified="false" references="true" similarDeclarations="false" stamp="1721113983533" textual="false" version="1.0"/>
+</session>

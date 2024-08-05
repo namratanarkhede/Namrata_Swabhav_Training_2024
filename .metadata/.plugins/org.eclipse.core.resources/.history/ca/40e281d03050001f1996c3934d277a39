@@ -1,0 +1,7 @@
+package com.aurionpro.structural.proxy.model;
+
+public interface VideoDownloader {
+	
+	Video getVideo(String videoName);
+
+}

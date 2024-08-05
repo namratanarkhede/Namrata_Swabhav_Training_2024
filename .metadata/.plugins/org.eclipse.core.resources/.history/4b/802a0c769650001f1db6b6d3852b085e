@@ -1,0 +1,14 @@
+package com.aurionpro.behavioral.observer.model;
+
+public class EmailNotifier implements INotifier{
+
+	@Override
+	public void notify(Account account,String operation, double amount) {
+		if(operation.equals("credit")) {
+			System.out.println("Email Notification : In Account : " +account.getAccountNumber()+ "amount" +amount+ "is credited successfully. The Total Balance: " + account.getBalance());
+		}if(operation.equals("withdraw")) {
+			System.out.println("Email Notification : In Account : " +account.getAccountNumber()+ "amount" +amount+ "is debited successfully. The Total Balance: " + account.getBalance());
+		}
+	}
+
+}

@@ -1,0 +1,12 @@
+package com.aurionpro.structural.proxy.model;
+
+public class RealVideoDownloader implements VideoDownloader{
+
+	@Override
+	public Video getVideo(String videoName) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+
+}

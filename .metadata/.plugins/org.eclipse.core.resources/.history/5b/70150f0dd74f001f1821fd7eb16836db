@@ -1,0 +1,5 @@
+package com.aurionpro.structural.Decorator.model;
+
+public class OilChange {
+
+}
