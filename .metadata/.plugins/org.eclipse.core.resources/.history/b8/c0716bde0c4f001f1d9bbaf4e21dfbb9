@@ -1,6 +1,0 @@
-package com.aurionpro.creational.adstractfactory.model;
-
-public interface IAccountFactory {
-	public IAccount makeAccount();
-
-}

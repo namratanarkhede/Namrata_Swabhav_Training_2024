@@ -1,7 +1,0 @@
-package com.aurionpro.creational.prototype.model;
-
-public interface ICar extends Cloneable{
-	
-	Car clone();
-
-}

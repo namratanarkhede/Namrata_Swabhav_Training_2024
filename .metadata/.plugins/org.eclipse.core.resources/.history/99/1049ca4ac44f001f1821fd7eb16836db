@@ -1,6 +1,0 @@
-package com.aurionpro.structural.Facade.model;
-
-public class IndianHotel implements IHotel{
-	
-
-}

@@ -1,8 +1,0 @@
-package com.aurionpro.creational.adstractfactory.model;
-
-import com.aurionpro.creational.factory.model.ICar;
-
-public interface ICarFactory {
-	public ICar makeCar();
-
-}

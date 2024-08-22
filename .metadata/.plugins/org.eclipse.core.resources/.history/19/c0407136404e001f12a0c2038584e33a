@@ -1,9 +1,0 @@
-package com.aurionpro.dipviolation.model;
-
-public class TaxCalulator {
-	ILogger iLogger = new ILogger();
-	
-	
-	
-
-}

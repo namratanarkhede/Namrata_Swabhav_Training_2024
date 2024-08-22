@@ -1,6 +1,0 @@
-package com.aurionpro.behavioral.observer.model;
-
-public class SMSNotification implements INotifier{
-	
-
-}

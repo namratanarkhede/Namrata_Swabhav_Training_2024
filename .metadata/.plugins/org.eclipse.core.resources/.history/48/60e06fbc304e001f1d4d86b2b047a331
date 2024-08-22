@@ -1,5 +1,0 @@
-package com.aurionpro.ocp.model;
-
-public enum FestivalType {
-
-}

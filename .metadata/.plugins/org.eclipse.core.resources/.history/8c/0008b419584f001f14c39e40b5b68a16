@@ -1,8 +1,0 @@
-package com.aurionpro.creational.builder.model;
-
-//Define the ICar interface with basic car operations
-public interface ICar {
- void start();
- void stop();
- String getName();
-}

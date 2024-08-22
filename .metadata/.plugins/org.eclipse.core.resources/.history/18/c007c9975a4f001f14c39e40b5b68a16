@@ -1,9 +1,0 @@
-package com.aurionpro.creational.prototype.model;
-
-
-public class ICar {
-
-	 Car clone() {
-		return null;
-	}
-}

@@ -1,7 +1,0 @@
-package com.aurionpro.behavioral.observer.model;
-
-public class INotifier {
-
-	Account account = new Account(accountNumber, name, balance, );
-	public void notify(account);
-}

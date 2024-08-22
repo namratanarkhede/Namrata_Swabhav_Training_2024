@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Bean is reusable object  -->
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:util="http://www.springframework.org/schema/util" xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd"> <!-- bean definitions here -->
+
+<!-- Object Injection -->
+<bean class="com.aurionpro.model.Hardisk" name="hardisk" >
+
+<!-- Setter Injection -->
+<!--  property is used to inject only build in data type -->
+<constructor-arg name ="capacity" value ="20"> </constructor-arg>
+
+</bean>
+
+
+<!-- <bean class = "com.aurionpro.model.Computer" name="computer" autowire="byName"> -->
+<!-- <property name = "name" value = "apple"> </property> -->
+
+
+<!-- Setter Injection -->
+<!--  property is used to inject only build in data type -->
+<!--  to add oject value we need to add autowire= "byName", "byType" constructor, no -->
+<!-- </bean> -->
+
+
+<bean class = "com.aurionpro.model.Computer" name = "computer" autowire = "constructor">
+<constructor-arg name = "name" value = "apple">
+
+</constructor-arg>
+
+</bean>
+
+
+
+</beans> 

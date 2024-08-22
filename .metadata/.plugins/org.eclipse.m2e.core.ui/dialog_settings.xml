@@ -5,8 +5,12 @@
 			<item value="com.aurionpro"/>
 		</list>
 		<list key="name">
+			<item value="TicTacToeGame"/>
 		</list>
 		<list key="artifactId">
+			<item value="32_SpringCore1"/>
+			<item value="31_SpringCoreApp"/>
+			<item value="Assignment_05_08_24"/>
 			<item value="TicTacToeGame"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -45,6 +49,8 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="D:\Aurionpro_training\31_SpringCoreApp\src\test\java\com\aurionpro\test\ComputerTest.java"/>
+			<item value="D:\Aurionpro_training\30_JSTLApp\src\com\aurionpro\db\DbConnection.java"/>
 			<item value="D:\Aurionpro_training\Assignment_02_08_24\src\com\aurionpro\test\TicTacToe.java"/>
 			<item value="D:\Aurionpro_training"/>
 		</list>

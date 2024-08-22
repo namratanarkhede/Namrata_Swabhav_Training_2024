@@ -1,7 +1,0 @@
-package com.aurionpro.behavioral.observer.model;
-
-public class INotifier {
-
-	Account account;
-	public void notify(Account account);
-}
